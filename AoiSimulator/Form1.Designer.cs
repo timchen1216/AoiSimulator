@@ -49,6 +49,7 @@
             // 
             // btnCapture
             // 
+            btnCapture.Font = new Font("Microsoft JhengHei UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 136);
             btnCapture.Location = new Point(291, 93);
             btnCapture.Name = "btnCapture";
             btnCapture.Size = new Size(139, 55);
@@ -61,7 +62,7 @@
             // 
             lblResult.AutoSize = true;
             lblResult.Font = new Font("Microsoft JhengHei UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 136);
-            lblResult.Location = new Point(447, 93);
+            lblResult.Location = new Point(447, 103);
             lblResult.Name = "lblResult";
             lblResult.Size = new Size(123, 35);
             lblResult.TabIndex = 2;
@@ -71,7 +72,7 @@
             // 
             lblStats.AutoSize = true;
             lblStats.Font = new Font("Microsoft JhengHei UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 136);
-            lblStats.Location = new Point(447, 165);
+            lblStats.Location = new Point(447, 177);
             lblStats.Name = "lblStats";
             lblStats.Size = new Size(123, 35);
             lblStats.TabIndex = 3;
@@ -80,6 +81,7 @@
             // 
             // btnStart
             // 
+            btnStart.Font = new Font("Microsoft JhengHei UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 136);
             btnStart.Location = new Point(291, 165);
             btnStart.Name = "btnStart";
             btnStart.Size = new Size(139, 58);
@@ -91,6 +93,7 @@
             // btnStop
             // 
             btnStop.Enabled = false;
+            btnStop.Font = new Font("Microsoft JhengHei UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 136);
             btnStop.Location = new Point(291, 235);
             btnStop.Name = "btnStop";
             btnStop.Size = new Size(139, 58);
@@ -103,7 +106,7 @@
             // 
             lblState.AutoSize = true;
             lblState.Font = new Font("Microsoft JhengHei UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 136);
-            lblState.Location = new Point(447, 235);
+            lblState.Location = new Point(447, 247);
             lblState.Name = "lblState";
             lblState.Size = new Size(143, 35);
             lblState.TabIndex = 7;
